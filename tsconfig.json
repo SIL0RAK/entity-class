@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target":"ES5",
+    "module": "UMD",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "alwaysStrict": true,
+    "declaration": true
+  },
+  "include": [
+    "./src/*",
+  ],
+}

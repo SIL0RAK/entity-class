@@ -1,0 +1,14 @@
+{
+  "name": "@sil0rak/entity",
+  "version": "0.1.0",
+  "main": "./dist/Entity.js",
+  "types": "./dist/Entity.d.ts",
+  "author": "Karolis Krusinskas",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
