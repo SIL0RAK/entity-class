@@ -4,7 +4,7 @@
 
 
  ```typescript
- import Entity from 'entity';
+ import Entity from 'entity-class';
 
  const entity = new Entity({
    name: 'John',
@@ -18,7 +18,7 @@
  Feel free to extend this entity
 
  ```typescript
- import Entity from 'entity';
+ import Entity from 'entity-class';
 
 class User extends Entity {
   getName() {
