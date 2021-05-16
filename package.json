@@ -1,5 +1,5 @@
 {
-  "name": "@sil0rak/entity",
+  "name": "entity-class",
   "version": "0.1.0",
   "main": "./dist/Entity.js",
   "types": "./dist/Entity.d.ts",
