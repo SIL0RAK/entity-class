@@ -4,6 +4,7 @@
   "main": "./dist/Entity.js",
   "types": "./dist/Entity.d.ts",
   "author": "Karolis Krusinskas",
+  "description": "Base class for all your entities",
   "license": "MIT",
   "homepage": "https://github.com/SIL0RAK/entity-class#readme",
   "keywords": [
