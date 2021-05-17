@@ -1,7 +1,6 @@
 # Entity
 
- Class for all your needs
-
+ Base class for all your entities
 
  ```typescript
  import Entity from 'entity-class';

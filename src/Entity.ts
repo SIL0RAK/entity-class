@@ -1,7 +1,7 @@
-class Entity {
-  private data: Record<string, unknown>;
+class Entity <T = Record<string | number, unknown>> {
+  private data: T;
 
-  constructor(data = {}) {
+  constructor(data = {} as T) {
     this.data = data;
   }
 
@@ -9,12 +9,14 @@ class Entity {
     return this.data;
   }
 
-  get(param: string): any {
+  get(param: keyof T) {
     return this.data?.[param];
   }
 
-  set(key: string, value: any) {
+  set<K extends keyof T>(key: K, value: T[K]) {
     this.data[key] = value;
+
+    return this;
   }
 
   toString() {

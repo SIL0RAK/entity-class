@@ -2,3 +2,4 @@
 tsconfig.json
 yarn.lock
 src
+jest.config.js
