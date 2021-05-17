@@ -1,5 +1,10 @@
 # Entity class
 
+![npm](https://img.shields.io/npm/v/entity-class)
+![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/SIL0RAK/entity-class)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/SIL0RAK/entity-class/Test)
+
+
  Base class for all your entities
 
  ```typescript
