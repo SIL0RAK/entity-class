@@ -1,4 +1,4 @@
-# Entity
+# Entity class
 
  Base class for all your entities
 

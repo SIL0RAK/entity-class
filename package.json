@@ -1,18 +1,18 @@
 {
-  "name": "base-class",
+  "name": "entity-class",
   "version": "0.2.0",
   "main": "./dist/Entity.js",
   "types": "./dist/Entity.d.ts",
   "author": "Karolis Krusinskas",
   "license": "MIT",
-  "homepage": "https://github.com/SIL0RAK/entity#readme",
+  "homepage": "https://github.com/SIL0RAK/entity-class#readme",
   "keywords": [
     "class",
     "entity",
     "extend"
   ],
   "bugs": {
-    "url": "https://github.com/SIL0RAK/entity/issues"
+    "url": "https://github.com/SIL0RAK/entity-class/issues"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
