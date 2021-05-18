@@ -1,6 +1,6 @@
 {
   "name": "entity-class",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "./dist/Entity.js",
   "types": "./dist/Entity.d.ts",
   "author": "Karolis Krusinskas",
