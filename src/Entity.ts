@@ -9,8 +9,8 @@ class Entity <T = Record<string | number, unknown>> {
     return this.data;
   }
 
-  get(param: keyof T) {
-    return this.data?.[param];
+  get<K extends keyof T>(param: K) {
+    return this.data[param];
   }
 
   set<K extends keyof T>(key: K, value: T[K]) {
